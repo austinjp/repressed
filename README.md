@@ -36,10 +36,11 @@ It produces the following HTML:
 Which will produce something like the following rendered output, depending on your choice of CSS:
 
 > ### From other bloggers
-> * (Post title 1 from external source)[http://example.com/link-1]
+> * [Post title 1 from external source](http://example.com/link-1)
 >   * Post 1 snippet text...
->
->
+> * [Post title 2 from external source](http://example.com/link-2)
+>   * Post 2 snippet text...
+
 
 ## Installation
 
