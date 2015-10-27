@@ -50,7 +50,7 @@ In the `repressed` directory place `repressed.php`.
 
 Also in the `repressed` directory install [SimplePie](http://simplepie.org/). Make sure this is in a directory called `simplepie`. Repressed has only been tested with SimplePie version 1.3.1.
 
-On running, repressed will write to directory named `cache` to store SimplePie's cache files. Make sure it has write permission to the `repressed` directory in order to do this.
+On running, repressed will write to directory named `cache` to store SimplePie's cache files. Make sure it has write permission to the `repressed` and `cache` directories in order to do this.
 
 Your directory structure should look something like this:
 
@@ -66,3 +66,15 @@ wordpress
                     └── ...simplepie files here...
 ```
 
+## Configuration
+
+In the Wordpress settings menu, select "Repressed". In the Repressed settings screen, enter the URLs of up to 5 RSS or Atom feeds. Most RSS or Atom formats should work, see [SimplePie](http://simplepie.org) for details. Absolutely NO ERROR CHECKING is done here, although failed feeds shouldn't generate errors (as far as I'm aware!).
+
+Typically Wordpress and other blogging platforms expose RSS feeds at URLs similar to these:
+
+```
+http://example.com/?feed=rss2
+http://example.com/?feed=atom
+http://example.com/feed
+http://example.com/blog/feed
+```
