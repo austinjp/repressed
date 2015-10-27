@@ -2,11 +2,20 @@
 
 A Wordpress plugin that lists recent posts from related blogs.
 
-Inserts the following HTML at a place of your chosing:
+## WARNING
+
+This is a personal project. It is completely unsupported and supplied as-is with no warranty of any nature, implicit or explicit. Use it at your peril.
+
+
+## Output
+
+Repressed fetches items from RSS feeds and inserts them into your blog. This is useful for linking directly to posts from related blogs.
+
+It produces the following HTML:
 
 ```HTML
 <div class="repressed_block">
-  <h3>From other osteopaths</h3>
+  <h3>From other bloggers</h3>
   <ul class="repressed_list">
     <li class="repressed_title">
       <a class="repressed_link" rel="nofollow" href="http://example.com/link-1">Post title 1 from external source.</a>
@@ -24,9 +33,13 @@ Inserts the following HTML at a place of your chosing:
 </div>
 ```
 
-## WARNING
+Which will produce something like the following rendered output, depending on your choice of CSS:
 
-This is a personal project. It is completely unsupported and supplied as-is with no warranty of any nature, implicit or explicit. Use it at your peril.
+> ### From other bloggers
+> * (Post title 1 from external source)[http://example.com/link-1]
+>   * Post 1 snippet text...
+>
+>
 
 ## Installation
 
