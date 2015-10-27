@@ -48,18 +48,21 @@ In your Wordpress plugins directory create a directory called `repressed`.
 
 In the `repressed` directory place `repressed.php`.
 
-Also in the `repressed` directory install SimplePie. Make sure this is in a directory called `simplepie`. Repressed has only been tested with SimplePie version 1.3.1.
+Also in the `repressed` directory install [SimplePie](http://simplepie.org/). Make sure this is in a directory called `simplepie`. Repressed has only been tested with SimplePie version 1.3.1.
 
 On running, repressed will write to directory named `cache` to store SimplePie's cache files. Make sure it has write permission to the `repressed` directory in order to do this.
 
 Your directory structure should look something like this:
 
 ```bash
-.
-├── cache
-│   ├── http-site-cache-files-here.spc
-├── repressed.php
-└── simplepie
-    ├── ...simplepie files here...
+wordpress
+  └── wp-content
+      └── plugins
+           └── repressed
+                ├── cache
+                │   └── http-site-cache-files-here.spc
+                ├── repressed.php
+                └── simplepie
+                    └── ...simplepie files here...
 ```
 
