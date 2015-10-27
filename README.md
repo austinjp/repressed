@@ -1,6 +1,6 @@
 # Repressed
 
-A Wordpress plugin that lists recent posts from related blogs.
+A Wordpress plugin that lists recent posts from related blogs. Content syndication.
 
 ## WARNING
 
@@ -78,3 +78,5 @@ http://example.com/?feed=atom
 http://example.com/feed
 http://example.com/blog/feed
 ```
+
+If you need to alter the HTML output, the length of the post snippets, the number of items collected per source, you will have to edit `repressed.php`.
