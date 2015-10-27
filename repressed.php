@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Repressed
- * Plugin URI: http://example.com
+ * Plugin URI: http://github.com/austinjp/repressed
  * Description: Add links to blog posts from your friends and colleagues to any post or page in your blog. Content syndication.
  * Version: 0.0.4
  * Author: Austin Plunkett
- * Author URI: http://example.com/author
+ * Author URI: http://github.com/austinjp
  * License: GPL2
  */
 
