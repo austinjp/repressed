@@ -1,6 +1,6 @@
 # Repressed
 
-A Wordpress plugin that lists recent posts from related blogs. Content syndication.
+A Wordpress plugin that lists recent posts from related blogs. Content syndication. This is great if readers of your site will benefit from content on other sites.
 
 ## WARNING
 
