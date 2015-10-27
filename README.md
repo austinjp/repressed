@@ -33,6 +33,14 @@ It produces the following HTML:
 </div>
 ```
 
+To make this appear in your Wordpress pages or posts, you will need to call the function `repressed_repress()` from within an appropriate file in your theme. For example, you could add the following into `single.php`:
+
+```php
+if(function_exists('repressed_repress')) {
+  repressed_repress('From other bloggers','<h3>','</h3>','');
+}
+```
+
 Which will produce something like the following rendered output, depending on your choice of CSS:
 
 > ### From other bloggers
